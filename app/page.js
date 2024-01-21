@@ -58,13 +58,16 @@ export default function Home() {
             <p className="text-tiny uppercase font-bold">Hello!</p>
             <small className="text-default-500">My name is Celeste</small>
             <h4 className="font-bold text-large">
-              Ever since I was a kid, I've loved playing with computers and
-              video games. They're like magic boxes that let me explore new
-              worlds and solve puzzles. I'm drawn to the way they blur the lines
-              between reality and fantasy, and how they teach us important life
-              lessons. Now, I'm excited to dive even deeper into computer
-              science, especially game development and AI. I'm thrilled to think
-              about what kind of cool stuff I can create in the future!{" "}
+              <p>
+                Ever since I was a kid, I've loved playing with computers and
+                video games. They're like magic boxes that let me explore new
+                worlds and solve puzzles. I'm drawn to the way they blur the
+                lines between reality and fantasy, and how they teach us
+                important life lessons. Now, I'm excited to dive even deeper
+                into computer science, especially game development and AI. I'm
+                thrilled to think about what kind of cool stuff I can create in
+                the future!
+              </p>
             </h4>
           </CardBody>
         </Card>
