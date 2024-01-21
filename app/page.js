@@ -57,6 +57,7 @@ export default function Home() {
           <CardBody className=" h-full overflow-visible py-2">
             <p className="text-tiny uppercase font-bold">Hello!</p>
             <small className="text-default-500">My name is Celeste</small>
+            // eslint-disable-next-line react/no-unescaped-entities
             <h4 className="font-bold text-large">
               <p>
                 Ever since I was a kid, I've loved playing with computers and
