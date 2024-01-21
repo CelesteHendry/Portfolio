@@ -9,7 +9,7 @@ import {
 } from "@nextui-org/react";
 import { Image } from "@nextui-org/react";
 import { User } from "@nextui-org/react";
-import { Card, CardHeader, CardBody } from "@nextui-org/react";
+import { Card, CardBody } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -18,65 +18,57 @@ export default function Home() {
         <NavbarBrand>
           <User
             name="Celeste Hendry"
-            description={
-              <Link href="https://twitter.com/jrgarciadev" size="sm" isExternal>
-                @celestehendry
-              </Link>
-            }
             avatarProps={{
-              src: "https://avatars.githubusercontent.com/u/30373425?v=4",
+              src: "",
             }}
           />
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Features
+            <Link
+              color="foreground"
+              href="https://www.linkedin.com/in/celeste-hendry-8a6137266/"
+            >
+              LinkedIn
             </Link>
           </NavbarItem>
           <NavbarItem isActive>
-            <Link href="#" aria-current="page">
-              Customers
+            <Link href="https://github.com/CelesteHendry" aria-current="page">
+              GitHub
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link color="foreground" href="#">
-              Integrations
+              Resume
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
-            </Button>
-          </NavbarItem>
-        </NavbarContent>
       </Navbar>
-      <Image
-        isZoomed
-        width={240}
-        alt="NextUI Fruit Image with Zoom"
-        src="https://nextui-docs-v2.vercel.app/images/fruit-1.jpeg"
-      />
-      <Card className="py-4">
-        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-          <p className="text-tiny uppercase font-bold">Daily Mix</p>
-          <small className="text-default-500">12 Tracks</small>
-          <h4 className="font-bold text-large">Frontend Radio</h4>
-        </CardHeader>
-        <CardBody className="overflow-visible py-2">
-          <Image
-            alt="Card background"
-            className="object-cover rounded-xl"
-            src="/images/hero-card-complete.jpeg"
-            width={40}
-          />
-        </CardBody>
-      </Card>
+
+      <div className="flex justify-center items-center space-x-48 p-4">
+        <Image
+          isZoomed
+          width={350}
+          alt="Portfolio Picture"
+          src="PortfolioPicture.jpg"
+        />
+
+        <Card className="p-4 w-1/4 py-4">
+          <CardBody className=" h-full overflow-visible py-2">
+            <p className="text-tiny uppercase font-bold">Hello!</p>
+            <small className="text-default-500">My name is Celeste</small>
+            <h4 className="font-bold text-large">
+              Ever since I was a kid, I've loved playing with computers and
+              video games. They're like magic boxes that let me explore new
+              worlds and solve puzzles. I'm drawn to the way they blur the lines
+              between reality and fantasy, and how they teach us important life
+              lessons. Now, I'm excited to dive even deeper into computer
+              science, especially game development and AI. I'm thrilled to think
+              about what kind of cool stuff I can create in the future!{" "}
+            </h4>
+          </CardBody>
+        </Card>
+      </div>
     </main>
   );
 }
