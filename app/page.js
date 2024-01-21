@@ -57,17 +57,16 @@ export default function Home() {
           <CardBody className=" h-full overflow-visible py-2">
             <p className="text-tiny uppercase font-bold">Hello!</p>
             <small className="text-default-500">My name is Celeste</small>
-            // eslint-disable-next-line react/no-unescaped-entities
             <h4 className="font-bold text-large">
               <p>
-                Ever since I was a kid, I've loved playing with computers and
-                video games. They're like magic boxes that let me explore new
-                worlds and solve puzzles. I'm drawn to the way they blur the
-                lines between reality and fantasy, and how they teach us
-                important life lessons. Now, I'm excited to dive even deeper
-                into computer science, especially game development and AI. I'm
-                thrilled to think about what kind of cool stuff I can create in
-                the future!
+                Ever since I was a kid, I&apos;ve loved playing with computers
+                and video games. They&apos;re like magic boxes that let me
+                explore new worlds and solve puzzles. I&apos;m drawn to the way
+                they blur the lines between reality and fantasy, and how they
+                teach us important life lessons. Now, I&apos;m excited to dive
+                even deeper into computer science, especially game development
+                and AI. I&apos;m thrilled to think about what kind of cool stuff
+                I can create in the future!
               </p>
             </h4>
           </CardBody>
