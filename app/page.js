@@ -95,7 +95,7 @@ export default function Home() {
               <p className="text-tiny uppercase font-bold text-purple-600 text-center">
                 Hello!
               </p>
-              <small className="text-default-500 text-fuchsia-300 text-center">
+              <small className="text-default-500  text-center">
                 My name is Celeste
               </small>
               <h4 className="font-bold text-large text-indigo-300 text-center">
@@ -115,7 +115,7 @@ export default function Home() {
           <Card className="p-4 w-1/4 py-4 bg-slate-800">
             <CardBody className=" h-full  py-2 ">
               <p className="text-tiny uppercase font-bold text-purple-600 text-center"></p>
-              <small className="text-default-500 text-fuchsia-300 text-center"></small>
+              <small className="text-default-500  text-center"></small>
               <h4 className="font-bold text-large text-indigo-300 text-center">
                 <p></p>
               </h4>
