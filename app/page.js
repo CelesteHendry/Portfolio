@@ -13,15 +13,10 @@ import { Card, CardBody } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen">
+    <main className="flex flex-col items-center justify-center min-h-screen purple-dark text-foreground bg-background">
       <Navbar>
         <NavbarBrand>
-          <User
-            name="Celeste Hendry"
-            avatarProps={{
-              src: "",
-            }}
-          />
+          <p> Celeste Hendry </p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
@@ -45,20 +40,65 @@ export default function Home() {
         </NavbarContent>
       </Navbar>
 
-      <div className="flex flex-col items-center space-y-4 p-4">
-        <div className="flex space-x-4">
+      <div className="flex flex-col items-center space-y-4 p-4 ">
+        <div className="flex flex-row space-x-4 justify-center">
           <Image
+            isBlurred
             isZoomed
             width={350}
             alt="Portfolio Picture"
             src="PortfolioPicture.jpg"
           />
 
-          <Card className="p-4 w-1/4 py-4">
-            <CardBody className=" h-full overflow-visible py-2">
-              <p className="text-tiny uppercase font-bold">Hello!</p>
-              <small className="text-default-500">My name is Celeste</small>
-              <h4 className="font-bold text-large">
+          <div className="flex flex-col items-center space-y-4 p-4 space-x-4 justify-center">
+            <h1 className="flex justify-center flex-col space-y-4 p-4 text-4xl font-mono text-purple-400">
+              Hi, I'm Celeste!
+            </h1>
+            <h2 className=" flex justify-center flex-col space-y-4 p-4 text-2xl font-mono text-fuchsia-100">
+              It's nice to meet you!
+            </h2>
+          </div>
+        </div>
+
+        <div className="space-x-4">
+          <Button
+            color="primary"
+            variant="shadow"
+            radius="full"
+            //className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
+          >
+            Education
+          </Button>
+
+          <Button
+            color="primary"
+            variant="shadow"
+            radius="full"
+            //className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
+          >
+            Projects
+          </Button>
+
+          <Button
+            color="primary"
+            variant="shadow"
+            radius="full"
+            //className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
+          >
+            Experience
+          </Button>
+        </div>
+
+        <div className="flex flex-row space-x-4 justify-center">
+          <Card className="p-4 w-1/4 py-4 bg-slate-800">
+            <CardBody className=" h-full  py-2 ">
+              <p className="text-tiny uppercase font-bold text-purple-600 text-center">
+                Hello!
+              </p>
+              <small className="text-default-500 text-fuchsia-300 text-center">
+                My name is Celeste
+              </small>
+              <h4 className="font-bold text-large text-indigo-300 text-center">
                 <p>
                   Ever since I was a kid, I&apos;ve loved playing with computers
                   and video games. They&apos;re like magic boxes that let me
@@ -72,29 +112,15 @@ export default function Home() {
               </h4>
             </CardBody>
           </Card>
-        </div>
-
-        <div className="space-x-4">
-          <Button
-            radius="full"
-            className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
-          >
-            Education
-          </Button>
-
-          <Button
-            radius="full"
-            className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
-          >
-            Projects
-          </Button>
-
-          <Button
-            radius="full"
-            className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
-          >
-            Experience
-          </Button>
+          <Card className="p-4 w-1/4 py-4 bg-slate-800">
+            <CardBody className=" h-full  py-2 ">
+              <p className="text-tiny uppercase font-bold text-purple-600 text-center"></p>
+              <small className="text-default-500 text-fuchsia-300 text-center"></small>
+              <h4 className="font-bold text-large text-indigo-300 text-center">
+                <p></p>
+              </h4>
+            </CardBody>
+          </Card>
         </div>
       </div>
     </main>
