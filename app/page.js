@@ -52,10 +52,10 @@ export default function Home() {
 
           <div className="flex flex-col items-center space-y-4 p-4 space-x-4 justify-center">
             <h1 className="flex justify-center flex-col space-y-4 p-4 text-4xl font-mono text-purple-400">
-              Hi, I'm Celeste!
+              Hi, I&apos;m Celeste!
             </h1>
             <h2 className=" flex justify-center flex-col space-y-4 p-4 text-2xl font-mono text-fuchsia-100">
-              It's nice to meet you!
+              It&apos;s nice to meet you!
             </h2>
           </div>
         </div>
