@@ -242,7 +242,7 @@ export default function Home() {
                 this role, I utilized secure databases to manage client
                 profiles, ensuring real-time adaptability for personalized
                 support. I also implemented assistive technologies to enhance
-                clients quality of life and applied data analytics for
+                clients&apos; quality of life and applied data analytics for
                 evidence-based decision-making, all while ensuring compliance
                 with security and privacy standards.
               </p>
