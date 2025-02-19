@@ -126,15 +126,13 @@ export default function Home() {
               </small>
               <h4 className="font-bold text-large text-indigo-300 text-center">
                 <p>
-                  I&apos;m a well-rounded developer with experience in
-                  front-end&apos;s back-end&apos;s and databases. I make sure
-                  everything works smoothly and looks good. I&apos;ve also built
-                  a PC from scratch and used to repair cell phones. On top of
-                  that&apos;s I&apos;ve got strong customer service skills&apos;
-                  always ensuring things run smoothly and everyone&apos;s
-                  satisfied. Whether it&apos;s fixing bugs&apos; building from
-                  the ground up&apos; or working with clients&apos; I&apos;ve
-                  got it covered.
+                  I&apos;m a well-rounded developer with experience in front-end
+                  back-end and databases. I make sure everything works smoothly
+                  and looks good. I have also built a PC and I used to repair
+                  cell phones. I have got strong customer service skills always
+                  ensuring things run smoothly and everyone&apos;s satisfied.
+                  Whether it&apos;s fixing bugs building from the ground up or
+                  working with clients I&apos;ve got it covered.
                 </p>
               </h4>
             </CardBody>
@@ -244,7 +242,7 @@ export default function Home() {
                 this role, I utilized secure databases to manage client
                 profiles, ensuring real-time adaptability for personalized
                 support. I also implemented assistive technologies to enhance
-                clients' quality of life and applied data analytics for
+                clients quality of life and applied data analytics for
                 evidence-based decision-making, all while ensuring compliance
                 with security and privacy standards.
               </p>
