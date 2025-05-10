@@ -152,7 +152,7 @@ export default function Home() {
                     Purdue University Fort Wayne
                   </p>
                   <p className="text-sm text-bold text-fuchsia-400">
-                    Cumulative GPA: 3.26/4.0
+                    Cumulative GPA: 3.24/4.0
                   </p>
                 </div>
 
@@ -166,7 +166,7 @@ export default function Home() {
                     <li>Data Structures</li>
                     <li>Software Engineering</li>
                     <li>Operating Systems</li>
-                    <li>Artificial Intelligence</li>
+                    <li>Computer Networks</li>
                   </ul>
                 </p>
               </CardBody>
@@ -205,18 +205,6 @@ export default function Home() {
                   with technologies such as React, Next.js, Node.js, AirTable,
                   Vercel, and Tailwind to deliver a high-performance solution.
                 </p>
-
-                <p className="text-2xl text-fuchsia-300">Filehub</p>
-                <p className="text-sm m-4">
-                  In December 2023, I developed a sophisticated file-sharing
-                  website using React for dynamic frontend rendering, Node.js
-                  for robust server-side logic, and MongoDB for efficient and
-                  scalable data storage. I implemented secure file
-                  upload/download functionalities alongside advanced sorting and
-                  search capabilities, ensuring a secure and seamlessly
-                  organized user experience. The project utilized React,
-                  Next.js, Node.js, MongoDB, Google Cloud, and Firebase.
-                </p>
               </CardBody>
             </Card>
           </div>
@@ -225,6 +213,37 @@ export default function Home() {
             <h1 className="text-3xl text-indigo-300 m-4">Experience</h1>
             <Card className="p-4 w-3/4 py-4 bg-slate-800">
               <CardBody>
+                <p className="text-2xl text-fuchsia-300">
+                  Denali Advanced Integration
+                </p>
+                <p className="text-sm m-4">
+                  As a Quality Assurance Technician I at Denali AI, I ensure the
+                  functionality and reliability of customer-owned devices before
+                  deployment by performing thorough manual testing and defect
+                  triage. My role involves managing and executing test cases,
+                  documenting issues, and communicating findings clearly to both
+                  the team and leadership. I work efficiently in a fast-paced,
+                  production-driven environment, staying organized and focused
+                  while monitoring ticketing systems and troubleshooting
+                  technical issues. With a strong attention to detail and a
+                  proactive approach, I contribute to maintaining high standards
+                  of quality and client satisfaction, while adapting to evolving
+                  project needs and timelines.
+                </p>
+
+                <p className="text-2xl text-fuchsia-300">
+                  LevelUp Meds Internship
+                </p>
+                <p className="text-sm m-4">
+                  As an intern at LevelUp Meds, I&apos;m continuing development
+                  on the internal web app by adding new features and optimizing
+                  performance. I&apos;m also leading a redesign of the
+                  company&apos;s public-facing GoDaddy website to deliver a more
+                  modern, responsive, and user-friendly experience. My work
+                  builds on our capstone foundation and leverages React,
+                  Next.js, Tailwind CSS, and AWS services.
+                </p>
+
                 <p className="text-2xl text-fuchsia-300">CelliMart</p>
                 <p className="text-sm m-4">
                   From May to August 2019, I worked as a Technician at CelliMart
@@ -235,20 +254,6 @@ export default function Home() {
                   focusing on fine-tuning settings, implementing software
                   updates, and addressing digital challenges to deliver an
                   improved user experience.
-                </p>
-
-                <p className="text-2xl text-fuchsia-300">
-                  Benchmark Human Services
-                </p>
-                <p className="text-sm m-4">
-                  From December 2022 to August 2024, I worked as a Direct
-                  Support Professional at Benchmark Human Services in Fort
-                  Wayne, IN. In this role, I utilized secure databases to manage
-                  client profiles, ensuring real-time adaptability for
-                  personalized support. I also implemented assistive
-                  technologies to enhance clients&apos; quality of life and
-                  applied data analytics for evidence-based decision-making, all
-                  while ensuring compliance with security and privacy standards.
                 </p>
               </CardBody>
             </Card>
