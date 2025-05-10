@@ -248,12 +248,12 @@ export default function Home() {
                 <p className="text-sm m-4">
                   From May to August 2019, I worked as a Technician at CelliMart
                   in Fort Wayne, IN, where I diagnosed and resolved complex
-                  hardware and software issues using advanced diagnostic tools,
-                  leading to a 30% improvement in device efficiency. I also
-                  applied various techniques to enhance device performance,
-                  focusing on fine-tuning settings, implementing software
-                  updates, and addressing digital challenges to deliver an
-                  improved user experience.
+                  hardware issues using advanced diagnostic tools, leading to a
+                  30% improvement in device efficiency. I also applied various
+                  techniques to enhance device performance, focusing on
+                  fine-tuning settings, implementing software updates, and
+                  addressing digital challenges to deliver an improved user
+                  experience.
                 </p>
               </CardBody>
             </Card>
